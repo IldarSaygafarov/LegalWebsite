@@ -29,7 +29,7 @@
 }
 
 .consult-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   background-image: url("../img/icons/briefcase.png");
   background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 .consult-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: -100%;
@@ -51,10 +51,10 @@
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: .4;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  opacity: 0.4;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .default-btn {
@@ -70,7 +70,7 @@
 }
 
 .default-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: -100%;
@@ -78,15 +78,15 @@
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: .4;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  opacity: 0.4;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   z-index: 1;
 }
 
 .default-btn::after {
-  content: '';
+  content: "";
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -104,7 +104,7 @@
 }
 
 .default-btn_black::after {
-  content: '';
+  content: "";
   background-image: url("../img/icons/right_black.png");
 }
 
@@ -130,7 +130,7 @@
 }
 
 .section-top__item_left:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 9px;
@@ -152,7 +152,7 @@
 .section-top__subtitle,
 .cards-item__text,
 .benefits-page__subtitle {
-  margin: 10px 0px  0px;
+  margin: 10px 0px 0px;
   line-height: 18px;
   font-family: "PTSerif";
   color: #5e5e5e;
@@ -167,9 +167,12 @@
 
 .section-top__btn {
   line-height: 24px;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   padding: 8px 38px;
   border: 1px solid #e6e6e6;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @font-face {
@@ -412,6 +415,10 @@ a {
 
 .menu__item {
   margin: 0px 14px 0px 0px;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .menu__item:last-child {
@@ -422,9 +429,6 @@ a {
   padding: 8px 15px;
   line-height: 36px;
   font-size: 16px;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
   color: #323232;
 }
 
@@ -527,18 +531,18 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .popup.active {
   top: 0;
   opacity: 1;
   visibility: visible;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .popup__content {
@@ -558,6 +562,12 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   margin: 0 auto;
 }
@@ -609,7 +619,7 @@ a {
 }
 
 .slider-page__wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -749,7 +759,7 @@ a {
 }
 
 .cards-item__text {
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
 }
 
 .cards-item__actions {
@@ -776,11 +786,12 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
 }
 
 .about__wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -893,7 +904,7 @@ a {
 }
 
 .consultation-form__select::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 9px;
   height: 5px;
@@ -901,9 +912,9 @@ a {
   top: 50%;
   background-image: url("../img/icons/arrow-down.png");
   background-repeat: no-repeat;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .consultation-form__select.open::before {
@@ -919,9 +930,9 @@ a {
   width: 100%;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   border: 1px solid #e6e6e6;
   z-index: 10;
   background-color: #000;
@@ -937,9 +948,9 @@ a {
   position: relative;
   z-index: 5;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   color: #fff;
   line-height: 2;
   padding: 10px 5px;
@@ -956,11 +967,12 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
 }
 
 .benefits-page__wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -998,7 +1010,7 @@ a {
 }
 
 .benefits-page__title::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 50%;
@@ -1065,7 +1077,7 @@ a {
 }
 
 .news-slider__item::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   display: block;
@@ -1171,7 +1183,7 @@ a {
 }
 
 .news-blog__image::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 10px;
   width: 47px;
@@ -1181,7 +1193,7 @@ a {
 }
 
 .news-blog__image::after {
-  content: '03.04';
+  content: "03.04";
   color: #fff;
   line-height: 18px;
   position: absolute;
@@ -1196,22 +1208,22 @@ a {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin: 17px 0 14px;
 }
 
 .news-blog__text {
   line-height: 18px;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   color: #5e5e5e;
 }
 
 @media (min-width: 992.98px) {
   .consult-btn:hover {
     color: #fff;
-    -webkit-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    transition: all .6s ease;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
   }
 
   .consult-btn:hover::after {
@@ -1220,25 +1232,32 @@ a {
 
   .default-btn:hover {
     color: #ffc222;
-    -webkit-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    transition: all .6s ease;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
   }
 
   .default-btn:hover::before {
     right: 0;
   }
 
-  .menu__link:hover,
-  .menu__link:focus {
+  .menu__item:hover,
+  .menu__item:focus {
     border: 1px solid #ffc222;
-    -webkit-transition: border .3s ease;
-    -o-transition: border .3s ease;
-    transition: border .3s ease;
+    -webkit-transition: border 0.3s ease;
+    -o-transition: border 0.3s ease;
+    transition: border 0.3s ease;
   }
 }
 
 @media (min-width: 992px) {
+  .section-top__btn:hover {
+    border-color: #ffc222;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
   .consultation-form__select:hover .consultation-form__dropdown {
     opacity: 1;
     visibility: visible;
@@ -1630,14 +1649,14 @@ a {
     padding: 80px 0px 0px 0px;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     text-align: center;
   }
 
   .menu__body:before {
-    content: '';
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
